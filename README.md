@@ -1,5 +1,6 @@
-#canbus-sniffer-arduino-to-serial
+##canbus-sniffer-arduino-to-serial
 
+This arduino program translates incoming canbus to serial string. Which the Java client can read.
 
 ```c++
    Serial.print("T: ");
@@ -16,3 +17,8 @@
     }
    Serial.println("");
 ```
+
+
+The structure needed of the serial message is the following:
+
+T: 14142 ID: 22, Data: 1 E2 1 E2 0 0 0 F0 ´
