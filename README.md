@@ -20,5 +20,6 @@ This arduino program translates incoming canbus to serial string. Which the Java
 
 
 The structure needed of the serial message is the following:
+>T: 14142 ID: 22, Data: 1 E2 1 E2 0 0 0 F0
 
-T: 14142 ID: 22, Data: 1 E2 1 E2 0 0 0 F0 ´
+The same is required for the filter.asc file.
