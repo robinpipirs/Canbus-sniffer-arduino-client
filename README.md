@@ -33,6 +33,6 @@ This examples sends a message like bellow:
 >T: 14142 ID: 22, Data: 1 E2 1 E2 0 0 0 F0
 
 
-They are sent with 3ms delay, This is to simulate a fast canbus network.
+There are `106775` lines of messages in `can_data.txt`. They are sent with 3ms delay, This is to simulate a fast canbus network.
 Task is to improve java client with clever thread distrubution to speed things up.
 Reason for this is. When a crowded network is used the software isnt fast enough filtering while receiving. Which means we loose messages.
