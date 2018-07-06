@@ -30,7 +30,7 @@ The structure needed of the serial message in order for java client parser to wo
 The `can_simulator_text_read.ino` is used to simulate a car connected for software debugging,
 Right now the java client is to slow and misses some messages. 
 This examples sends a message like bellow: 
->T: 14142 ID: 22, Data: 1 E2 1 E2 0 0 0 F0  
+>T: 14142 ID: 22, Data: 1 E2 1 E2 0 0 0 F0<   
 They are sent with 3ms delay, This is to simulate a fast canbus network.
 Task is to improve java client with clever thread distrubution to speed things up.
 Reason for this is. When a crowded network is used the software isnt fast enough filtering while receiving. Which means we loose messages.
