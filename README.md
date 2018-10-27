@@ -36,3 +36,7 @@ This examples sends a message like bellow:
 There are `106775` lines of messages in `can_data.txt`. They are sent with 3ms delay, This is to simulate a fast canbus network.
 Task is to improve java client with clever thread distrubution to speed things up.
 Reason for this is. When a crowded network is used the software isnt fast enough filtering while receiving. Which means we loose messages.
+
+## Added yet another can simulator:
+The `canbus_simulator_for_javaclient.ino` is used to simulate a car connected for software debugging,
+This examples repeats 10-15 different messages. This is for testing the java software.
