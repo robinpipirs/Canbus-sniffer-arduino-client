@@ -1,7 +1,7 @@
 # canbus-sniffer-arduino-to-serial
 
 This Arduino software translates incoming canbus to serial string. Which the Java client can read.
-You install this as any other Arduino examples. canbus-sniffer-arduino-to-serial.ino is the file to run.
+You install this as any other Arduino examples. ``canbus-sniffer-arduino-to-serial.ino`` is the file to run.
 Once the Arduino is flashed you can run it with Usb or serial cable with the Java client software.
 
 
